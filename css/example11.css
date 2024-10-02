@@ -1,0 +1,91 @@
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+}  
+
+p{
+    font-family: Arial, 'Times New Roman', Times, serif, sans-serif;
+}*/
+
+body {
+    background-color: lightgray;
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;*/
+}
+
+p,li{
+    color: white;
+    background-color: lightblue;
+}
+
+.aueb_logo{
+    width: 800px;
+    height: auto;
+}
+
+img.aueb_logo{
+    border-style:double;
+    border-width: 3px;
+    border-color: coral;
+    border-left-color: black;
+}
+
+p.aueb_logo{
+    border: 3px solid greenyellow;
+}
+
+p.aueb_text{
+    color:blue;
+    background-color: beige; 
+}
+
+ul strong{
+    background-color: green;
+}
+ul em{
+    background-color: lightseagreen;
+}
+
+
+h1 + p{
+    background-color: orange;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color:brown;
+}
+
+a:focus{
+    outline: none;
+    background-color: yellowgreen;
+}
+
+a:hover{
+    background-color: green;
+    color: white;
+}
+
+a:active{
+    background-color: chocolate;
+    color:white;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
